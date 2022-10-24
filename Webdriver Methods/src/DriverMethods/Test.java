@@ -18,7 +18,7 @@ public class Test {
 		
 		driver.get("https://www.amazon.com/");
 		
-        driver.manage().window().maximize();
+                driver.manage().window().maximize();
 		
 		String title=driver.getTitle();
 		System.out.println(title);
@@ -35,7 +35,7 @@ public class Test {
 		Set<String> key=driver.getWindowHandles();
 		System.out.println(key);
 		
-	   // String ps=dr.getPageSource(); 
+	        // String ps=dr.getPageSource(); 
 		//System.out.println(ps);
 		
 		driver.navigate().to("https://auto.mahindra.com/suv/thar");
